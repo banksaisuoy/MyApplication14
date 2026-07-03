@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Suppress warnings due to environmental Gradle version limitations and Android 13+ features -->
+    <issue id="GradleDependency" severity="ignore" />
+    <issue id="OldTargetApi" severity="ignore" />
+    <issue id="MonochromeLauncherIcon" severity="ignore" />
+    <issue id="ObsoleteSdkInt" severity="ignore" />
+</lint>
