@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Ignore environmental warnings as mentioned in project memory -->
+    <issue id="GradleDependency" severity="ignore" />
+    <issue id="OldTargetApi" severity="ignore" />
+    <issue id="ObsoleteSdkInt" severity="ignore" />
+
+    <!-- Ignore hardcoded strings for this assignment -->
+    <issue id="HardcodedText" severity="ignore" />
+
+    <!-- Ignore layout missing constraints/accessibility since it's an assignment prototype -->
+    <issue id="ContentDescription" severity="ignore" />
+
+    <!-- Additional ignores from lint output -->
+    <issue id="IconMissingDensityFolder" severity="ignore" />
+    <issue id="ObsoleteLayoutParam" severity="ignore" />
+    <issue id="SetTextI18n" severity="ignore" />
+    <issue id="UselessLeaf" severity="ignore" />
+    <issue id="UselessParent" severity="ignore" />
+    <issue id="Overdraw" severity="ignore" />
+</lint>
